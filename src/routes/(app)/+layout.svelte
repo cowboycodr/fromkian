@@ -1,5 +1,5 @@
 <script>
-	import '../app.pcss';
+	import '../../app.pcss';
 	import { invalidate } from '$app/navigation';
 	import { onMount } from 'svelte';
 
@@ -26,9 +26,11 @@
 <Toaster position="top-center" />
 
 <Meta
-	title="KianKit"
-	description="Rapidly build SvelteKit + Supabase apps."
+	title="fromkian"
+	description="the minimalistic developer."
 	twitterUsername="@fromkian"
 />
 
-<slot />
+<div class="m-auto max-w-3xl">
+	<slot />
+</div>
